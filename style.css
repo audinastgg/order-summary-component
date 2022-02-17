@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&display=swap');
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+.card {
+    width: 20rem;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+
+.card-img-top {
+    display: flexbox;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+h1 {
+   font-size: 20px;
+   font-weight: bolder;
+   padding: 20px;
+   color: hsl(223, 47%, 23%);
+}
+.music {
+    background-color: hsl(225, 100%, 98%);
+    text-align: left;
+    width: 90%;
+    font-size: 14px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+li {
+    display: inline-block;
+}
+
+.music-icon {
+    padding-right: 10px;
+}
+.price {
+    width: 100px;
+    vertical-align: middle;
+    font-weight: bolder;
+    color: hsl(223, 47%, 23%);
+}
+
+span {
+    color: hsl(224, 23%, 55%);
+    font-weight: lighter;
+}
+.bottom {
+    padding: 20px;   
+}
+
+
+.btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    color:  hsl(224, 23%, 55%);
+}
+
+.btn:hover{
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.btn-primary:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+.change {
+    padding-left: 40px;
+    text-decoration: underline;
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+.change:hover{
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+
